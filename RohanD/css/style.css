@@ -223,10 +223,10 @@ footer p:nth-child(2){
 	text-align: center;
 	line-height: 26px;
 }
-.social{
+.school{
 	display: flex;
 }
-.social a{
+.school a{
 	width: 45px;
 	height: 45px;
 	display: flex;
@@ -239,7 +239,7 @@ footer p:nth-child(2){
 	text-decoration: none;
 	font-size: 20px;
 }
-.social a:hover{
+.school a:hover{
 	transform: scale(1.3);
 	transition: .3s;
 }
@@ -255,7 +255,7 @@ footer p:nth-child(2){
 .game {
 	width: 100%;
 	padding: 100px 0px;
-	background-color: #191919;
+	background-color: #101010;
 }
 .game img{
 	height: auto;
@@ -344,6 +344,102 @@ footer p:nth-child(2){
 	transition: .4s; 
 }
 .game2 .button:hover{
+	background-color: transparent;
+	border: 2px solid #F7DF1E;
+	cursor: pointer;
+}
+
+.game3 {
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #101010;
+}
+.game3 img{
+	height: auto;
+	width: 430px;
+}
+.game3-tekst{
+	width: 550px;
+}
+.game3-tekst h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.game3-tekst h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.game3-tekst p{
+	color: #FDFD96;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.game3 .button{
+	background-color:#F7DF1E;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.game3 .button:hover{
+	background-color: transparent;
+	border: 2px solid #F7DF1E;
+	cursor: pointer;
+}
+
+.game4 {
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.game4 img{
+	height: auto;
+	width: 430px;
+}
+.game4-tekst{
+	width: 550px;
+}
+.game4-tekst h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.game4-tekst h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.game4-tekst p{
+	color: #FDFD96;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.game4 .button{
+	background-color:#F7DF1E;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.game4 .button:hover{
 	background-color: transparent;
 	border: 2px solid #F7DF1E;
 	cursor: pointer;
